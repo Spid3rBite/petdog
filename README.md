@@ -1,2 +1,2 @@
 # petdog
-A visual novel were you pet a dog.
+A visual novel where you pet a dog.
