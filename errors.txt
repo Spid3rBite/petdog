@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 20: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation.
+    play music "sunflower-slow-drag.ogg" 
+    ^
+
+Ren'Py Version: Ren'Py 7.4.6.1693
+Mon Jul 19 20:28:15 2021

@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 57, in script
+    while 1 = 1:
+SyntaxError: invalid syntax (script.rpy, line 57)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 57, in script
+    while 1 = 1:
+  File "renpy/ast.py", line 1835, in execute
+    if renpy.python.py_eval(self.condition):
+  File "renpy/python.py", line 2247, in py_eval
+    code = py_compile(code, 'eval')
+  File "renpy/python.py", line 835, in py_compile
+    raise e
+SyntaxError: invalid syntax (script.rpy, line 57)
+
+Windows-10-10.0.19041
+Ren'Py 7.4.6.1693
+Pet Dog 1.0
+Mon Jul 19 20:53:51 2021
